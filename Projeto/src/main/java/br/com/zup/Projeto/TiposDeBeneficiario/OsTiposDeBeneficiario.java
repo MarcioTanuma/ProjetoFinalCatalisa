@@ -1,0 +1,20 @@
+package br.com.zup.Projeto.TiposDeBeneficiario;
+
+public enum OsTiposDeBeneficiario
+
+{
+    CRIANCAS,
+    MULHERES,
+    DEFICIENTES,
+    IDOSOS,
+    LGBTS,
+    PESSOASDECOR,
+    INDIGENAS,
+    QUILOMBOLAS,
+    ORFAOS,
+    SEMTETO,
+    SEMTERRA,
+    EGRESSOSDOTRABALHOINFANTIL,
+    DEPENDENTESQUIMICOS,
+    VITIMASDEABUSOSEXUAL
+}

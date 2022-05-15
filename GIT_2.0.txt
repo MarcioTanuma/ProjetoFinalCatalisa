@@ -1,0 +1,32 @@
+		Uma nova linha do tempo no GIT.
+		
+O Projeto sofreu os efeitos de um Commit destrutivo, 
+que ao invés de criar os novos passos do projeto, desfez os já feitos.
+Isso poderia ser resolvido de duas formas:
+	-Um novo commit que desfizesse todos os estragos, passo a passo.
+	-Um retorno a um momento anterior ao commit destrutivo.
+Eu optei pela segunda escolha.
+
+Isso significa que todos os repositorios que estavam atualizados apos o commit 
+destrutivo estão invalidos, e que nós precisamos de um novo repositorio.
+
+Para isso:
+	1.Abra sua pasta MeusProjetos/ZUPCATALIZAGRUPO4
+	2.Retorne para MeusProjetos/
+	3.Crie uma nova pasta ProjetosArquivados/
+	4.Recorte a pasta ZUPCATALIZAGRUPO4 para ProjetosArquivados/
+	
+	Agora, com a pasta Projeto livre de qualquer subpasta ZUPCATALIZAGRUPO4, use:
+		git clone https://github.com/39AlunoZUPCATALISA20212/ZUPCATALIZAGRUPO4.git
+	Para receber o repositorio valido.
+	
+	Se voce tinha arquivos no repositorio invalido (Eles provavelmente estão salvos APENAS NA SUA MAQUINA)
+	que voce não encontra no repositorio valido, e quer adicionar, fazer push de ProjetosArquivados/ NAO VAI SERVIR.
+	
+	O que voce precisa fazer é Abir a pasta ProjetosArquivados/ZUPCATALIZAGRUPO4 e 
+	copiar/colar os arquivos faltantes diretamente na pasta do repositorio valido, para depois fazer:
+		git add {arquivosParaAdicionar}
+		git commit -m {mensagem}
+	Como se esses fossem arquivos novos.
+
+	

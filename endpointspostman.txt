@@ -1,0 +1,6 @@
+"/pontodecoleta" "/{ID}"
+"/pontosdecoleta"
+"/entidade" "/{ID}"
+"/entidades"
+"/doador"	"{/ID}"
+"beneficiarios"	"{/ID}"

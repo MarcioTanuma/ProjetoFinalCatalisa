@@ -1,0 +1,15 @@
+package br.com.zup.Projeto.TiposDeDoacoes;
+
+public enum OsTiposDeDoacoes
+{
+    ALIMENTOS,
+    HIGIENEPESSOAL,
+    MEDICAMENTOS,
+    VESTIMENTAS,
+    MIDIA,
+    MIDIAEDUCATIVA,
+    BENSDECONSUMO,
+    BENSDECONSUMODURAVEIS,
+    MATERIAPRIMA,
+    MATERIALRECICLADO
+}
